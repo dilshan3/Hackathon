@@ -74,7 +74,7 @@ class SelectedDestination extends Component {
                                 <img
                                     src={'https://i.ytimg.com/vi/XifptbD1MH8/maxresdefault.jpg'}
                                     height='200' width='400' className={'image-fluid m-2'} alt='Temple of Tooth Relic'/>
-                                <div className="centered m-2">Temple of Tooth Relic</div>
+                                <div className="centered m-2">Hanthana</div>
                             </div>
                         </div>
                         <div className="column">

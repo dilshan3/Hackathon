@@ -22,14 +22,14 @@ class Home extends Component {
           <center>
             <tr>
               <td className={"m4"}>
-                <a href="https://www.w3schools.com">
+
                   {" "}
                   <img
                     src="https://previews.123rf.com/images/saiko3p/saiko3p1712/saiko3p171200158/92507544-temple-of-the-sacred-tooth-relic-or-sri-dalada-maligawa-in-kandy-sri-lanka-sacred-tooth-relic-temple.jpg"
                     width="300"
                     height="200"
                   />
-                </a>
+
                 <br />
                 Temple of the Tooth Relic
               </td>
