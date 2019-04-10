@@ -1,16 +1,22 @@
 import React, {Component} from "react";
 import App from "../App";
+import { Link } from 'react-router';
 
 class SelectedDestination extends Component {
 
 
+
     render() {
+
+        const handleHome = ()=>{
+            window.open('./home.jsx');
+        }
 
         return (
             <React.Fragment>
                 <center><h1>Temple of Tooth Relic, Kandy</h1></center>
                 <div align='right'>
-                    <button className={'btn btn-sm m-2 btn-light'}>Home</button>
+                    <button className={'btn btn-sm m-2 btn-light'} onClick={handleHome}>Home</button>
                     <button className={'btn btn-sm m-2 btn-light'}>About Us</button>
                     <button className={'btn btn-sm m-2 btn-light'}>Contact Us</button>
                     <button className={'btn btn-sm m-2 btn-light'}>FAQ</button>
@@ -99,3 +105,4 @@ class SelectedDestination extends Component {
     }
 }
 export default SelectedDestination;
+
